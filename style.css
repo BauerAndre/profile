@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Poppins:wght@300;400;500;700");
+
+
+h1 {
+  color: #100F0F;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h2 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #100F0F;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #100F0F;
+  margin-top: 60px;
+  font-size: 20px;
+}
+body {
+  background-color: #E2DCC8;
+}
+a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  color: #0F3D3E;
+}
+h2 {
+  color: #185657;
+}
+img {
+  border-radius: 50%;
+  height: 200px;
+  Width: 200px;
+}
+@media (max-width: 2000px) {
+.container {
+  width: 900px;
+  margin: 0 auto;
+}}
+@media (max-width: 900px) {
+.container {
+  width: 400px;
+  margin: 0 auto;
+}}
+
+.card {
+  text-align: center;
+  background: white;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #185656;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  margin-top: 40px;
+  display: inline-block;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  list-style: none;
+  padding-left: 0px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+i{
+  font-size: 40px;
+}
+ul{
+  padding-left: 0px;
+}
+li:last-child{
+  padding-right: 0;
+}
+a:hover{
+  color: #cac0c0;
+}
